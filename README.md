@@ -1,5 +1,11 @@
 ## frobski-stunts
 
+[Video](https://streamable.com/hzi5qn)
+
+## How to use?
+
+Just press by default "J" when you are on a bike
+
 ## Installation
 ```cfg
  ensure frobski-stunts
