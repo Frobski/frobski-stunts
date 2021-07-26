@@ -18,7 +18,7 @@ Citizen.CreateThread(function()
 		if IsPedInAnyVehicle(PlayerPedId()) then
 			if not vehicle then
 				for k, v in pairs(Config.Bikes) do
-					if GetDisplayNameFromVehicleModel(GetEntityModel(GetVehiclePedIsIn(PlayerPedId()))) == string.upper(v) then
+					if GetDisplayNameFromVehicleModel(GetEntityModel(GetVehiclePedIsIn(PlayerPedId()))) == v then
 						vehicle = true
 						break
 					end
